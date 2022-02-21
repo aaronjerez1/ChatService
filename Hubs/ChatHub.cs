@@ -11,7 +11,6 @@ namespace ChatService.Hubs
         private readonly string _botUser;
         private readonly IDictionary<string, userConnection> _connections;
 
-        `   
         public ChatHub(IDictionary<string, userConnection> connections)
         {
             _botUser = "MyChat Bot";
